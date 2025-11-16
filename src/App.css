@@ -42,9 +42,10 @@
   justify-content: space-around;
 }
 
-.successBadge {
-  background-color: rgba(0, 128, 0, 0.638);
-  width: 40px;
+.worstBadge {
+  /* margin-left: 30px; */
+  background-color: #f40602;
+  width: 50px;
   text-align: center;
   border-radius: 5px;
   color: white;
@@ -52,21 +53,10 @@
   right: 22px;
 }
 
-.dangerBadge {
+.badBadge {
   /* margin-left: 30px; */
-  background-color: red;
-  width: 40px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  position: absolute;
-  right: 22px;
-}
-
-.warningBadge {
-  /* margin-left: 30px; */
-  background-color: rgb(255, 255, 0);
-  width: 40px;
+  background-color: #fc950b;
+  width: 50px;
   text-align: center;
   border-radius: 5px;
   color: white;
@@ -76,8 +66,29 @@
 
 .okBadge {
   /* margin-left: 30px; */
-  background-color: orange;
-  width: 40px;
+  background-color: #ffd303;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  right: 22px;
+}
+
+.goodBadge {
+  /* margin-left: 30px; */
+  background-color: #82e104;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  right: 22px;
+}
+
+.excellentBadge {
+  background-color: #1bb003;
+  width: 50px;
   text-align: center;
   border-radius: 5px;
   color: white;
