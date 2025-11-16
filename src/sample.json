@@ -1,9 +1,0 @@
-{
-  "domain_name": "apple.com",
-  "pii_data": 85,
-  "privacy_data": 40,
-  "location_tracking": 20,
-  "targeted_advertising": 92,
-  "data_retention": 100,
-  "data_sharing": 75
-}
