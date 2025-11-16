@@ -42,9 +42,9 @@ class ScrapeData:
 
 
 # To run the scraper in an async environment:
-async def main():
-    scrape_data = ScrapeData(url="https://www.apple.com/legal/privacy/en-ww/", website_name="Apple")
-    await scrape_data.run()
+# async def main():
+#     scrape_data = ScrapeData(url="https://www.apple.com/legal/privacy/en-ww/", website_name="Apple")
+#     await scrape_data.run()
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     asyncio.run(main())
